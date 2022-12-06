@@ -1,0 +1,132 @@
+
+ :root {
+   --color-red: #f40612;
+   --color-dark-red: #9a0000;
+   --color-black: #000;
+   --color-white: #fff;
+   --color-gray: #999;
+   --color-dark: #222;
+ }
+
+ .{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+ body{
+     font-family:Arial, Helvetica, sans-serif;
+     background: var(--color-black);
+     max-width: 100vw;
+     color: var(--color-white);
+     line-height: 1.5;
+
+ }
+
+/* GENERAL STYLES */
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    color: var(--color-white);
+    padding: 0.3rem 0.6rem;
+    margin: 0.5rem 0.2rem;
+    border: 1px solid var(--color-white);
+    border-radius: 0.2rem;
+    font-size: 0.6rem;
+    display: inline-block;
+    transition: all 300ms ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 1rem black;
+}
+
+.btn-danger {
+    background: var(--color-red);
+    border: none;
+    margin-left: -4.5rem;
+}
+
+.btn-lg {
+    margin: 0.5rem 0.2rem;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+}
+
+.text-gray {
+    color: var(--color-gray);
+}
+
+header {
+    background: url(https://wallpapercave.com/wp/wp6201541.jpg);
+    /* no-repeat center center/cover; */
+    width: 100%;
+    height: 120vh;
+}
+
+header nav {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+header nav .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav img:first-child {
+    width: 1%;
+}
+
+/* hide N logo on large screens */
+header nav img:last-child {
+    width: 15%;
+    display: flex;
+}
+
+/* Main Header Content */
+
+header .content {
+    margin-top: 3rem;
+}
+
+header .content img {
+    width: 32rem;
+}
+
+header .content h3 {
+    font-size: 1rem;
+    margin: 1.6rem 0 0;
+}
+
+header .content p {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    width: 35rem;
+}
+
+/* Netflix font format */
+.content .net {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    color: red;
+}
+.series p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.7em;
+}
+
+.money {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 4rem;
+    display: block;
+    line-height: 20%;
+}
